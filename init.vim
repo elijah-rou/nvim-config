@@ -6,7 +6,7 @@ call plug#begin("~/.vim/plugged")
 	Plug 'sheerun/vim-polyglot'
 	Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-	let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-vetur', 'coc-flutter', 'coc-tabnine', 'coc-rust-analyzer', 'coc-go', 'coc-git']
+	let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-python', 'coc-vetur', 'coc-flutter', 'coc-tabnine', 'coc-rust-analyzer', 'coc-go', 'coc-git']
 	Plug 'tpope/vim-fugitive'
 	Plug 'junegunn/gv.vim'
 	Plug 'mhinz/vim-signify'
@@ -15,6 +15,7 @@ call plug#begin("~/.vim/plugged")
 	Plug 'christoomey/vim-tmux-navigator'
 	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'preservim/nerdcommenter'
 call plug#end()
 
 " Config Section
@@ -56,3 +57,5 @@ let g:NERDTreeColorMapCustom = {
     \ "Dirty"     : "#299999",  
     \ "Clean"     : "#87939A"   
     \ }
+
+filetype plugin on
