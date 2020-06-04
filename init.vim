@@ -1,8 +1,8 @@
 call plug#begin("~/.vim/plugged")
-	" Plugin Section 
+	Plugin Section 
 	Plug 'patstockwell/vim-monokai-tasty'
-	Plug 'scrooloose/nerdtree'
 	Plug 'ryanoasis/vim-devicons'
+	Plug 'scrooloose/nerdtree'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
