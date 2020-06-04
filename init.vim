@@ -1,5 +1,5 @@
 call plug#begin("~/.vim/plugged")
-	Plugin Section 
+	" Plugin Section 
 	Plug 'patstockwell/vim-monokai-tasty'
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'scrooloose/nerdtree'
